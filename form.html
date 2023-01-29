@@ -1,43 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Myfirstform</title>
 </head>
+
 <body>
-    <pre>                                                                              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQa_fgSao1QTHWhinnbmB8WWwC3wy2brMiCXmpadjjjdw&s"alt="facebook"></pre>
-    <fieldset>
-    <h1><pre>                                         SIGN UP TO FACEBOOK                      </pre></h1>
-    <form action="none">
-        
-            <label for="First name"></label>First Name  <input type="text" placeholder="First Name">
-            <label for="Last name"></label>Last Name  <input type="text" placeholder="Last Name">
-            <br>
-            <br>
-            <label for="Phone Number"></label> Phone Number  <input type="tel" placeholder="Enter your Ph Number">
-            <label for="Email"></label>Email  <input type="email" placeholder="xyz@gmail.com">
-            <br>
-            <br>
-            <label for="1">
-            Are you a <input type="radio" value="Male" name="Gender" id="1">Male
-            </label>
-            <label for="2">
-            <input type="radio" value="Female" name="Gender" id="2">Female
-            </label>
-            <label for="3">
-            <input type="radio" value="Custom" name="Gender" id="3">Custom
-            </label>
-            <br>
-            <br>
-            <label for="Password"></label>Enter your Password <input type="password" placeholder="Enter New password">
-            <br>
-            <br>
-            <label for="dob"></label>DOB <input type="date" value="Dateofbirth">
-    </fieldset>
-            <br>
-            <input type="submit" name="formsubmit" Value="Submit">
-    </form>
+    <div class="img">
+        <img src="https://1000logos.net/wp-content/uploads/2016/11/Facebook-Logo-font.jpg" 
+            alt="facebook">
+    </div>
+    <div class="form">
+        <form action="none">
+            <fieldset>
+                <legend>
+                    <big>Creat a new account</big>
+                </legend>
+                <div class="text">
+                    <p>First Name : <input type="text" name="fname" value="" placeholder="First Name"></p>
+
+                    <p>Last Name : <input type="text" name="lname" value="" placeholder="Last Name"></p>
+                </div>
+                <div class="mailnum">
+                    <p>Mobile : <input type="tel"
+                    name="mobile" value="" placeholder="Mobile Number" ></p>
+
+                    <p>Email : <input type="email" name="email" value="" placeholder="Email"></p>
+                </div>
+                    <hr>
+                <p id="g">Gender Selection :</p>
+                    <div class="gender">
+                        <label for="male">
+                            <p><input type="radio" name="gender" value="male" id="male"> Male</p>
+                        </label>
+                        <label for="female">
+                            <p><input type="radio" name="gender" value="female" id="female"> Female</p>
+                        </label>
+                        <label for="custom">
+                            <p><input type="radio" name="gender" value="custom" id="custom"> Custom</p>
+                        </label>
+                    </div>
+                        <hr>
+                    <p id="lang">Which languages do you speak?</p>
+                <div class="box">
+                    <label for="bengali">
+                        <p><input type="checkbox" name="checkbox" value="bengali" id="bengali"> Bengali</p>
+                    </label>
+                    <label for="english">
+                        <p><input type="checkbox" name="checkbox" value="english" id="english"> English</p>
+                    </label>
+                    <label for="hindi">
+                        <p><input type="checkbox" name="checkbox" value="hindi" id="hindi"> Hindi</p>
+                    </label>
+                    <label for="spanish">
+                        <p><input type="checkbox" name="checkbox" value="spanish" id="spanish"> Spanish</p>
+                    </label>
+                    <label for="urdu">
+                        <p><input type="checkbox" name="checkbox" value="urdu" id="urdu"> Urdu</p>
+                    </label>
+                </div>
+                <hr>
+                    <div class="birth">
+                        <p>Date of birth</p>
+                        <input type="date" name="dob" id="dob" value="">
+                    </div>
+                <hr>
+                    <div class="pass">
+                        <p>Enter New Password</p>
+                        <input type="password" name="password" value="" id="pass" placeholder="Atleast 6 characters">
+                    </div>
+                <hr>
+                    <div class="bottom">
+                        <label for="sub">
+                            <input type="submit" value="Continue" id="sub">
+                        </label>
+                        <br>
+                        <label for="res">
+                            <input type="reset" value="Reset" id="res">
+                        </label>
+                    </div>
+            </fieldset>
+        </form>
+    </div>
 </body>
+
 </html>

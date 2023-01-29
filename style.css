@@ -1,0 +1,107 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgb(28, 28, 28);
+}
+
+img{
+    height: 100px;
+}
+.img{
+    text-align: center;
+    padding: 2em;
+}
+.text input{
+    padding: 0.3em;
+    border-radius: 0.3em;
+}
+.text{
+    padding: 1em;
+    display: flex;
+    gap:1em;
+}
+.mailnum input{
+    padding: 0.3em;
+    border-radius: 0.3em;
+}
+.mailnum{
+    padding: 1em;
+    display: flex;
+    gap:1rem;
+}
+.gender{
+    padding: 0.5em;
+    display: flex;
+    gap:1rem;
+    padding-left: 0.8rem;
+}
+fieldset{
+    border-color:darkred;
+    color:whitesmoke;
+    margin:auto;
+    position: relative;
+}
+#g{
+    padding-left: 0.8rem;
+}
+hr{
+    margin-top: 1em;
+    margin-bottom: 1em;
+    color:darkred;
+}
+#lang{
+    padding-left:0.8rem;
+    text-align: center;
+    display:flex;
+}
+.box{
+    display: flex;
+    padding: 1em;
+    gap: 0.8em;
+
+}
+#sub{
+    padding: 0.5em;
+    background:pink;
+    border-radius: 0.5em;
+    
+}
+#res{
+    padding: 0.5em;
+    background:pink;
+    border-radius: 0.5em;
+}
+.bottom{
+    gap: 10em;
+    display: flex;
+    padding:1.5em;
+}
+.form{
+    margin: auto;
+    width:max-content;
+    height: fit-content;
+}
+#dob{
+    margin-top: 1em;
+    padding: 0.2em;
+}
+.birth{
+    text-decoration:underline;
+    padding-bottom: 0.3em;
+    padding-left:0.8em;
+    padding-top: 0.3em;
+}
+.pass{
+    text-decoration: underline;
+    padding-bottom:0.3em;
+    padding-left: 0.8em;
+    padding-top:0.3em;
+}
+#pass{
+
+    margin-top: 0.8em;
+    padding: 0.5em;
+
+}

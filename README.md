@@ -1,2 +1,2 @@
 # Simple-Login-Page
-Only using HTML5
+Only using HTML/CSS
